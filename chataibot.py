@@ -14,7 +14,7 @@ from fbchat import Client
 from fbchat.models import *
 
 # Create a client instance
-client = Client("eldrdpre@gmail.com", "EAAMyh7xK6zIBAEm8uF73fEMmarYj3Hj2YEdyeRMw065lJeW49eZA91ZB7a6Au3qTHNf5ijn1TWzeK70APgtpPO2EQJRozvhSNMx5aqEZAjhhp7mnzN0HEHJcNE64qy1oQhMaMVmjj4BxlBcQLs59NZAAp2Rv73cZC2yvFjFx1bWorvCZCRdDYbHOD0LYgZAZAkaYJXIftYCUNAZDZD")
+client = Client("email", "token")
 
 # Listen for incoming messages
 @client.onMessage(thread_type=ThreadType.USER)
